@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4e322e;
+}
+
+.album {
+  font-size: xx-large;
+  font-weight: 800;
+  color: white;
+  border-radius: 1rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.album1 {
+  background-color: #ff5724;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: first;
+}
+
+.album2 {
+  background-color: blueviolet;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: second;
+}
+
+.album3 {
+  background-color: blue;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: third;
+}
+
+.album4 {
+  background-color: yellow;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: fourth;
+}
+
+.album5 {
+  background-color: salmon;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: fifth;
+}
+
+.album6 {
+  background-color: #74df74;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: sixth;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (minmax(20px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+      grid-template-areas: "first second third" "fourth fifth sixth";
+}
+/*# sourceMappingURL=style.css.map */
