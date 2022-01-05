@@ -1,0 +1,39 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+/* VARIABLES*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4em;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: #6e859c;
+  padding: 0;
+  margin: 0;
+  background: #e8e9e9;
+}
+
+header {
+  background-color: #66ff47;
+}
+
+nav {
+  background-color: #f153ff;
+}
+
+main {
+  background-color: tomato;
+}
+
+aside {
+  background-color: #47afff;
+}
+
+footer {
+  background-color: #4e2e29;
+}
+/*# sourceMappingURL=page.css.map */

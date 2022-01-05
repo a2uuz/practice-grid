@@ -1,0 +1,50 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+/* VARIABLES*/
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 1.4em;
+	font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+	color: #6e859c;
+  padding: 0;
+  margin: 0;
+	background: #e8e9e9;
+}
+// .wrapper {
+//   background: #fff;
+//   border-radius: 0.285em;
+//   box-shadow: 0 0.1em 0 0 rgba(0,0,0,0.1);
+
+// }
+// .album {
+//   color: #fff;
+//   text-shadow: 0 2px 0 rgba(110,133,156,0.18);
+//   padding: 0.85em;
+//   background: #1a6086;
+//   border: solid 1px rgba(110,133,156,0.15);
+//   border-radius: 0.3em;
+// }
+// .album:nth-child(even) {
+//   background: #fc593c;
+// }
+header{
+  background-color: rgb(102, 255, 71);
+}
+nav{
+  background-color: rgb(241, 83, 255);
+}
+main{
+  background-color: tomato;
+}
+aside{
+  background-color: rgb(71, 175, 255);
+}
+footer{
+  background-color: rgb(78, 46, 41);
+}
